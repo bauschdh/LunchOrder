@@ -34,6 +34,7 @@ namespace LunchOrder
             addOnCheckBox3.Checked = false;
         }
 
+        // Dylan Bausch
         private void btnPlaceOrder_Click(object sender, EventArgs e)
         {
             double subTotal = mainCourseCost;
@@ -59,6 +60,7 @@ namespace LunchOrder
             txtOrderTotal.Text = $"${total:F2}";
         }
 
+        // Dylan Bausch
         private void radioButton_CheckedChanged(object sender, EventArgs e)
         {
             if (mainCourseButton1.Checked)
@@ -93,6 +95,7 @@ namespace LunchOrder
             ClearAddOns();
         }
 
+        // Dylan Bausch
         private void addOnCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             ClearTotals();
